@@ -6,7 +6,7 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
-cors = CORS(app, resources={r"*": {"origins": "https://sgg-courses.herokuapp.com"}})
+cors = CORS(app, resources={r"*": {"origins": "https://ssg-courses.herokuapp.com"}})
 
 
 
